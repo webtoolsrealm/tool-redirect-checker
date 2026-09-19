@@ -29,7 +29,7 @@ A hosted version runs at [webtoolsrealm.com/tool/redirect-checker](https://webto
 ## Installation
 
 ```bash
-git clone https://github.com/baleeghuddin/tool-redirect-checker.git
+git clone https://github.com/webtoolsrealm/tool-redirect-checker.git
 cd tool-redirect-checker
 composer install
 ```
@@ -37,7 +37,7 @@ composer install
 ## Usage
 
 ```php
-use Baleeghuddin\RedirectChecker\RedirectChecker;
+use webtoolsrealm\RedirectChecker\RedirectChecker;
 
 $checker = new RedirectChecker();
 $result  = $checker->check('http://example.com');
