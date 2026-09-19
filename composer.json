@@ -1,0 +1,18 @@
+{
+    "name": "webtoolsrealm/tool-redirect-checker",
+    "description": "Trace the full redirect chain of any URL — every hop, status code, and final destination.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["redirect", "http", "301", "302", "url"],
+    "homepage": "https://webtoolsrealm.com/tool/redirect-checker",
+    "require": {
+        "php": "^8.0",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baleeghuddin\\RedirectChecker\\": "src/"
+        }
+    }
+}
